@@ -1,0 +1,46 @@
+/*
+ * Global styles and design tokens for light/dark mode.
+ * RGB values are consumed by tailwind.config.js (e.g. bg-background, text-ink).
+ * NativeWind applies .dark:root when ThemeContext toggles colorScheme.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-background: 249 247 242;
+    --color-surface: 255 255 255;
+    --color-surface-elevated: 255 255 255;
+    --color-card: 255 255 255;
+    --color-border: 229 220 205;
+    --color-accent: 180 83 9;
+    --color-accent-secondary: 146 64 14;
+    --color-text: 15 15 15;
+    --color-text-secondary: 82 82 82;
+    --color-text-muted: 130 130 130;
+    --color-success: 180 83 9;
+    --color-error: 220 38 38;
+    --color-overlay: 249 247 242;
+    --color-white: 255 255 255;
+    --color-accent-foreground: 255 255 255;
+  }
+
+  .dark:root {
+    --color-background: 10 10 10;
+    --color-surface: 22 22 22;
+    --color-surface-elevated: 30 30 30;
+    --color-card: 26 26 26;
+    --color-border: 55 55 55;
+    --color-accent: 180 83 9;
+    --color-accent-secondary: 146 64 14;
+    --color-text: 250 250 250;
+    --color-text-secondary: 163 163 163;
+    --color-text-muted: 115 115 115;
+    --color-success: 180 83 9;
+    --color-error: 248 113 113;
+    --color-overlay: 10 10 10;
+    --color-white: 255 255 255;
+    --color-accent-foreground: 255 255 255;
+  }
+}

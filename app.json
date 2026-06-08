@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "LexiTech Dictionary",
+    "slug": "dictionary-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lexitech.dictionary"
+    },
+    "android": {
+      "package": "com.lexitech.dictionary",
+      "adaptiveIcon": {
+        "backgroundColor": "#4F46E5"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
