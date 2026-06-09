@@ -10,7 +10,7 @@ const MESSAGES = {
   empty: 'Please enter a word to search.',
   multipleWords: 'Please search for one word, not a sentence.',
   numbers: 'Please search for a word instead of numbers.',
-  symbols: 'Please search for a word instead of numbers.',
+  symbols: 'Please search for a word instead of symbols.',
 } as const;
 
 const WORD_PATTERN = /^[a-zA-Z]+(?:[-'][a-zA-Z]+)*$/;
